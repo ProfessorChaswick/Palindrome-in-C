@@ -57,11 +57,11 @@ char* stripSpaces(char *noSpace)
         }
     }
     retVal[count] = '\0';
-    printf("First, strip out the spaced and punctuation...\n%s\n", retVal); /*Spaces and punctuation are now out.*/
+    printf("\nFirst, strip out the spaced and punctuation...\n%s\n", retVal); /*Spaces and punctuation are now out.*/
     for(int i = 0; i < strlen(retVal); i++)
         retVal[i] = tolower(retVal[i]);
 
-    printf("Then switch all the lotters to lower case...\n%s\n", retVal); /*all lower case letters (hopefully)*/
+    printf("\nThen switch all the lotters to lower case...\n%s\n", retVal); /*all lower case letters (hopefully)*/
 
     return retVal;
 
