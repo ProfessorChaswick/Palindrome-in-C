@@ -54,7 +54,6 @@ char* stripSpaces(char *noSpace)
            noSpace[idx] != ':')
         {
             retVal[count++] = noSpace[idx];
-            //count++;
         }
     }
     retVal[count] = '\0';
