@@ -9,10 +9,10 @@ char* stripSpaces(char *noSpace);
 
 int main(void)
 {
-    char usrStr[250];
+    char usrStr[500];
 
     printf("Please enter a string and I will check if it is a palindrome...");
-    scanf( "%249[^\n]", usrStr);
+    scanf( "%499[^\n]", usrStr);
     
     printf("\n");
     isPalindrome(usrStr) ? printf("\"%s\" is a palindrome", usrStr) : printf("\"%s\" is not a palindrome", usrStr);
